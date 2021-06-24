@@ -5,7 +5,7 @@ import DrawHelper from "./DrawHepler";
 window.onload = () => {
     if ($('.user-visits__canvases').length) {
 
-        let urlForRequest = 'http://127.0.0.1:8000/api/get-unique-visits';
+        let urlForRequest = '/api/get-unique-visits';
         $.get( urlForRequest , function( requestResult ) {
             $('.user-visits__loading').hide();
             let requestError = false;
