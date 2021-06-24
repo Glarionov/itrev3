@@ -26,6 +26,8 @@ window.onload = () => {
                 }
             }
 
+            console.log('Loading...')
+
             if (requestError) {
                 $('.user-visits__error').removeClass('d-none').addClass('alert-danger').html('There was en error with loading the data');
             } else {
