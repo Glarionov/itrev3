@@ -26,6 +26,9 @@
     "dependencies": {
         "chart.js": "^3.3.2",
         "distinct-colors": "^3.0.0"
+    },
+    "version": "1.0.0",
+    "engines": {
+        "node": "14.x"
     }
-
 }
