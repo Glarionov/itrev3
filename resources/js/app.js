@@ -26,12 +26,10 @@ window.onload = () => {
                 }
             }
 
-            console.log('Loading...')
-
             if (requestError) {
                 $('.user-visits__error').removeClass('d-none').addClass('alert-danger').html('There was en error with loading the data');
             } else {
-                if (!requestResult.data.by_hour && !requestResult.data.by_city) {
+                if (!requestResult.data.by_hour.length && !requestResult.data.by_city.length) {
                     $('.user-visits__error').removeClass('d-none').addClass('alert-primary').html('There was no user visits yet');
                 } else {
                     $('.user-visits__success').removeClass('d-none');
