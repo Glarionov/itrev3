@@ -18,7 +18,7 @@
                     <canvas class="user-visits__visits-by-city"></canvas>
                 </div>
             </div>
-            <div class="user-visits__error alert alert-danger d-none"></div>
+            <div class="user-visits__error alert d-none"></div>
         </div>
     </div>
 </div>
